@@ -733,6 +733,7 @@ img {
 .modal-close:hover,
 .modal-close:focus {
     background-color: #404bbf;
+    border: none;
 }
 
 .modal-close svg {
@@ -785,10 +786,24 @@ img {
     margin-bottom: 8px;
 }
 
+.form-group:last-of-type {
+    margin-bottom: 24px;
+}
+
 .modal-text {
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     margin-bottom: 16px;
 }
 
-.form-group:last-of-type {
-    margin-bottom: 24px;
+.form-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
 }
