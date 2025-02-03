@@ -618,8 +618,10 @@ img {
 .subscribe-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-left: auto;
 }
 
 /* Заголовок підписки */
@@ -630,15 +632,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-
-}
-
-/* Форма підписки */
-.subscribe-form {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
 }
 
 /* Поле вводу */
@@ -654,8 +648,17 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-    margin-left: 80px;
+    margin: 0;
 }
+
+/* Форма підписки */
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .subscribe-input::placeholder {
     color: #ffffff;
